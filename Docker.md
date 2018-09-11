@@ -30,3 +30,13 @@
 ### > 가상 머신
 
  하지만 가상머신은 느리다는 단점이 있었고, 이런 단점을 해결하기 위해 **반가상화(Paravirtualization)** 방식이 개발되어 널리 쓰이고 있습니다.
+
+![출처: Intel](https://raw.githubusercontent.com/by09115/Docker_Study/master/Images/paravirtualization.jpg)
+
+전가상화(Full Virtualization) 방식에서의 가상화 이미지는 OS가 포함되어 있어 부피가 매우 크고, 이를 주고받기 위해서 적지 않은 소요시간이 발생합니다.
+
+### > Docker
+
+ 반가상화보다 경량화된 Docker는 게스트 OS를 설치하는 대신 Docker 이미지에 각종 라이브러리와 서버 운영에 필요한 프로그램을 설치할 수 있고 OS의 기본 자원은 공유합니다. 이를 통해서 이미지를 경량화할 수 있고, 보관 및 전송을 쉽고 빠르게 할 수 있다는 장점이 있습니다.
+
+ 
