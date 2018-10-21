@@ -71,3 +71,6 @@ docker pull <image-name> <tags>
 
  images 명령을 통해 받은 이미지의 목록을 확인할 수 있습니다.
 
+#### 이 밖에도,,,
+
+ attach, start 등 여러 명령어가 있습니다(추후 추가 예정)
